@@ -1,10 +1,14 @@
-﻿namespace MangaTrackerAPI.Models;
+﻿using MangaTracker.Models;
+
+namespace MangaTrackerAPI.Models;
 
 public class Reading
 {
    public Guid Id { get; set; }
     public Guid UserId { get; set; }
+    public User User { get; set; }
     public Guid MangaId { get; set; }
+    public Manga Manga { get; set; }
     public float CurrentChapter { get; set; }
 
     public Reading(Guid userId, Guid mangaId)
