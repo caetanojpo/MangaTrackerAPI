@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\MangaTrackerAPI.csproj": {}
+    "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\MangaTrackerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\MangaTrackerAPI.csproj": {
+    "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\MangaTrackerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\MangaTrackerAPI.csproj",
+        "projectUniqueName": "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\MangaTrackerAPI.csproj",
         "projectName": "MangaTrackerAPI",
-        "projectPath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\MangaTrackerAPI.csproj",
+        "projectPath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\MangaTrackerAPI.csproj",
         "packagesPath": "C:\\Users\\caetanojpo\\.nuget\\packages\\",
-        "outputPath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\obj\\",
+        "outputPath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

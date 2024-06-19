@@ -1,28 +1,49 @@
-﻿namespace MangaTrackerAPI.Models;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-public class Manga
+namespace MangaTrackerAPI.Models
 {
-    public Guid Id { get; set; }
-    public string Title { get; set; }
-    public string Author { get; set; }
-    public float TotalChapters { get; set; }
-    public string Description { get; set; }
-    public List<Genre> Genres { get; set; }
-    public string CoverUrl { get; set; }
-
-    public Manga
-        (string title,
-        string author,
-        float totalChapters,
-        string description,
-        string coverUrl)
+    [Table("Mangas")]
+    public class Manga
     {
-        Id = Guid.NewGuid();
-        Title = title;
-        Author = author;
-        TotalChapters = totalChapters;
-        Description = description;
-        Genres = new List<Genre>();
-        CoverUrl = coverUrl;
+        [Required]
+        public Guid Id { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Title { get; set; }
+
+        [Required]
+        [StringLength(80)]
+        public string Author { get; set; }
+
+        [Required]
+        public float TotalChapters { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
+        public ICollection<MangaGenre> MangaGenres { get; set; } = new List<MangaGenre>();
+
+        public ICollection<Reading> Readings { get; set; } = new List<Reading>();
+
+        public string CoverUrl { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public DateTime UpdatedAt { get; set; }
+
+        public Manga(string title, string author, float totalChapters, string description, string coverUrl)
+        {
+            Id = Guid.NewGuid();
+            Title = title;
+            Author = author;
+            TotalChapters = totalChapters;
+            Description = description;
+            CoverUrl = coverUrl;
+            CreatedAt = DateTime.Now;
+            UpdatedAt = DateTime.Now;
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EZdJXWmh4I0=",
+  "dgSpecHash": "sTtJx6Hq9tE=",
   "success": true,
-  "projectFilePath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\MangaTrackerAPI\\MangaTrackerAPI.csproj",
+  "projectFilePath": "C:\\Workarea\\Personal\\MangaTrackerAPI\\mangatrackerapi\\MangaTrackerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caetanojpo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\caetanojpo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
