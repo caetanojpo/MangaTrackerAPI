@@ -6,5 +6,12 @@ namespace MangaTrackerAPI.Controllers
     [ApiController]
     public class ReadingsController : ControllerBase
     {
+        //GET BY ID
+        //GET BY USERID
+        //GET ALL
+        //CREATE
+        //UPDATE PATCH
+        //UPDATE PUT
+        //DELETE
     }
 }
