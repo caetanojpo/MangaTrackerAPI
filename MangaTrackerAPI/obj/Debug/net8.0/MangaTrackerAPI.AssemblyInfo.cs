@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MangaTrackerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ef5e29bbef8712cbcc0966c852f8f9d4fc4f0a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b774f3d2f8dc264cfc4b8617ad25052712ecc87")]
 [assembly: System.Reflection.AssemblyProductAttribute("MangaTrackerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MangaTrackerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
