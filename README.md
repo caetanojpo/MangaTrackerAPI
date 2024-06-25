@@ -8,29 +8,44 @@ The concept behind this API is to solve a problem I had myself when trying to tr
 
 ![image](https://github.com/caetanojpo/MangaTrackerAPI/assets/106156212/47356d9a-0281-41cb-98c4-d19ba65f9730)
 
-
 ## Table of Contents
 
 - [Overview](#overview)
+- [Prototype](#prototype)
 - [Entities](#entities)
   - [User](#user)
   - [Reading](#reading)
   - [Manga](#manga)
   - [Genre](#genre)
-  - [MangaGenre](#mangagenre)
 - [Functionality](#functionality)
   - [User](#user-1)
   - [Manga](#manga-1)
   - [Genre](#genre-1)
   - [Reading](#reading-1)
+- [Features](#features)
+  - [Authentication](#authentication)
+  - [Data Validation](#data-validation)
+  - [Error Handling](#error-handling)
+  - [Pagination & Filtering](#pagination--filtering)
+  - [Caching](#caching)
+  - [Documentation](#documentation)
+  - [Security](#security)
+  - [Performance Optimization](#performance-optimization)
+  - [Monitoring & Analytics](#monitoring--analytics)
 - [Future Plans](#future-plans)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-  
+  - [Running Tests](#running-tests)
+  - [API Documentation](#api-documentation)
+- [Author](#author)
+
+## Prototype
+
+The prototype was made using Figma and inspired by several random concepts. You can check it out on the following link: [FIGMA](https://www.figma.com/design/dvaa2NrV9RP98rsvd4CsIm/MangaTracker?node-id=0-1&t=1rxymKedVHHX8nBn-1)
+
+![image](https://github.com/caetanojpo/MangaTrackerAPI/assets/106156212/ed284547-4e98-43be-b3d2-0c17eae3d84d)
+
 ## Entities
 
 ### User
